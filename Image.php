@@ -32,7 +32,7 @@ class Image extends \Magento\Catalog\Helper\Image
         parent::__construct($context, $productImageFactory, $assetRepo, $viewConfig, $placeholderFactory);
     }
     
-    //@TODO move to service class.
+    //@TODO move internal to service class.
     
     /**
      * @return string
